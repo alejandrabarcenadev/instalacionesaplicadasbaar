@@ -19,7 +19,20 @@ import heroPhoto from "@/imports/fotografia_de_hero.png";
 import placeholderProyectos from "@/imports/placeholder-baar-categoria-proyectos.png";
 import placeholderEjecucion from "@/imports/placeholder-baar-ingenieria-en-ejecucion.png";
 import ingFelipeFoto from "@/imports/ingenierio.felipe-barcena.jpg";
-
+import torrePalladio01 from "@/imports/torre-palladio-01.jpg";
+import lasOlasAcapulco01 from "@/imports/las-olas-acapulco-01.jpg";
+import beGrandReforma01 from "@/imports/be-grand-reforma-01.jpg";
+import venetianPuertoVallarta02 from "@/imports/venetian-puerto-vallarta-02.jpg";
+import venetianPuertoVallarta01 from "@/imports/venetian-puerto-vallarta-01.jpg";
+import maralagoAcapulco02 from "@/imports/maralago-acapulco-02.jpg";
+import beGrandSanAngel01 from "@/imports/be-grand-san-angel-01.jpg";
+import laJoyaAcapulco from "@/imports/la-joya-acapulco.jpg";
+import beGrandLomas01 from "@/imports/be-grand-lomas-01.jpg";
+import torrePalmaMayorca01 from "@/imports/torre-palma-mayorca-01.jpg";
+import sheraton01 from "@/imports/sheraton-01.jpg";
+import torreIbiza01 from "@/imports/torre-ibiza-01.jpg";
+import beGrandAltoPedregal1 from "@/imports/be-grand-alto-pedregal-1.jpg";
+import beGrandContaderoAmenidades01 from "@/imports/be-grand-contadero-amenidades-01.jpg";
 /* ─── Brand ──────────────────────────────────────────────── */
 const NAVY = "#0D1B2A";
 const BLUE = "#0E7AC4";
@@ -267,16 +280,41 @@ type GalleryItem = {
 
 const TITULO_PH  = "Nombre del proyecto";
 const DESC_PH    = "Aquí va una breve descripción del proyecto, ubicación o trabajo realizado.";
-
 const galleryProyectos: GalleryItem[] = Array.from({ length: 20 }, (_, i) => ({
-  src: placeholderProyectos,
+  src:
+  i === 0
+    ? torrePalladio01
+    : i === 1
+      ? lasOlasAcapulco01
+      : i === 2
+        ? beGrandReforma01
+        : i === 3
+          ? venetianPuertoVallarta02
+          : i === 4
+            ? maralagoAcapulco02
+            :i === 5
+  ? beGrandSanAngel01
+  : i === 6
+    ? venetianPuertoVallarta01
+    : i === 7
+      ? beGrandLomas01
+      : i === 8
+  ? torrePalmaMayorca01
+  : i === 9
+  ? sheraton01
+  : i === 10
+    ? torreIbiza01
+    : i === 11
+    ? beGrandAltoPedregal1
+     : i === 12
+    ? beGrandContaderoAmenidades01
+    : placeholderProyectos,
   alt: `Proyecto destacado ${i + 1}`,
   titulo: TITULO_PH,
   descripcion: DESC_PH,
 }));
-
 const galleryEjecucion: GalleryItem[] = Array.from({ length: 20 }, (_, i) => ({
-  src: placeholderEjecucion,
+  
   alt: `Ingeniería en ejecución ${i + 1}`,
   titulo: TITULO_PH,
   descripcion: DESC_PH,
