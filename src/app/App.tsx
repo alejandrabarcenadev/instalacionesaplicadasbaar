@@ -33,6 +33,13 @@ import sheraton01 from "@/imports/sheraton-01.jpg";
 import torreIbiza01 from "@/imports/torre-ibiza-01.jpg";
 import beGrandAltoPedregal1 from "@/imports/be-grand-alto-pedregal-1.jpg";
 import beGrandContaderoAmenidades01 from "@/imports/be-grand-contadero-amenidades-01.jpg";
+import residencialRoyalReforma01 from "@/imports/residencial-royal-reforma-01.jpg";
+import beGrandContadero02 from "@/imports/be-grand-contadero-02.jpg";
+import grandPolanco02 from "@/imports/grand-polanco-02.jpg";
+import colegioAleman01 from "@/imports/colegio-aleman-01.jpg";
+import grandPolanco01 from "@/imports/grand-polanco-01.jpg";
+import cannonMills01 from "@/imports/cannon-mills-01.jpg";
+import hermerMercedesBenz01 from "@/imports/hermer-mercedes-benz-01.jpg";
 /* ─── Brand ──────────────────────────────────────────────── */
 const NAVY = "#0D1B2A";
 const BLUE = "#0E7AC4";
@@ -308,6 +315,20 @@ const galleryProyectos: GalleryItem[] = Array.from({ length: 20 }, (_, i) => ({
     ? beGrandAltoPedregal1
      : i === 12
     ? beGrandContaderoAmenidades01
+    : i === 13
+    ? residencialRoyalReforma01
+     : i === 14
+    ? beGrandContadero02
+     : i === 15
+    ? grandPolanco02
+     : i === 16
+    ? colegioAleman01
+      : i === 17
+    ? grandPolanco01
+     : i === 18
+    ? cannonMills01
+     : i === 19
+    ? hermerMercedesBenz01
     : placeholderProyectos,
   alt: `Proyecto destacado ${i + 1}`,
   titulo: TITULO_PH,
