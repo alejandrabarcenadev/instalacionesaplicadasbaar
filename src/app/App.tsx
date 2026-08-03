@@ -40,6 +40,26 @@ import colegioAleman01 from "@/imports/colegio-aleman-01.jpg";
 import grandPolanco01 from "@/imports/grand-polanco-01.jpg";
 import cannonMills01 from "@/imports/cannon-mills-01.jpg";
 import hermerMercedesBenz01 from "@/imports/hermer-mercedes-benz-01.jpg";
+import contaderoVistaAerea01 from "@/imports/contadero-vista-aerea-01.jpg";
+import maralagoCuartoMaquinas12 from "@/imports/maralago-cuarto-maquinas-12.jpg";
+import maralagoCuartoMaquinas09 from "@/imports/maralago-cuarto-maquinas-09.jpg";
+import maralagoCuartoMaquinas04 from "@/imports/maralago-cuarto-maquinas-04.jpg";
+import maralagoCuartoMaquinas01 from "@/imports/maralago-cuarto-maquinas-01.jpg";
+import maralagoCuartoMaquinas03 from "@/imports/maralago-cuarto-maquinas-03.jpg";
+import maralagoCuartoMaquinas07 from "@/imports/maralago-cuarto-maquinas-07.jpg";
+import maralagoCuartoMaquinas05 from "@/imports/maralago-cuarto-maquinas-05.jpg";
+import maralagoCuartoMaquinas15 from "@/imports/maralago-cuarto-maquinas-15.jpg";
+import maralagoCuartoMaquinas11 from "@/imports/maralago-cuarto-maquinas-11.jpg";
+import maralagoCuartoMaquinas06 from "@/imports/maralago-cuarto-maquinas-06.jpg";
+import maralagoCuartoMaquinas10 from "@/imports/maralago-cuarto-maquinas-10.jpg";
+import maralagoCuartoMaquinas14 from "@/imports/maralago-cuarto-maquinas-14.jpg";
+import maralagoCuartoMaquinas02 from "@/imports/maralago-cuarto-maquinas-02.jpg";
+import maralagoCuartoMaquinas08 from "@/imports/maralago-cuarto-maquinas-08.jpg";
+import santaFeCuartoMaquinas02 from "@/imports/santa-fe-cuarto-maquinas-02.JPG";
+import santaFeCuartoMaquinas01 from "@/imports/santa-fe-cuarto-maquinas-01.JPG";
+import maralagoCuartoMaquinas17 from "@/imports/maralago-cuarto-maquinas-17.jpg";
+import santaFeCuartoMaquinas03 from "@/imports/santa-fe-cuarto-maquinas-03.jpg";
+import maralagoCuartoMaquinas13 from "@/imports/maralago-cuarto-maquinas-13.jpg";
 /* ─── Brand ──────────────────────────────────────────────── */
 const NAVY = "#0D1B2A";
 const BLUE = "#0E7AC4";
@@ -335,7 +355,49 @@ const galleryProyectos: GalleryItem[] = Array.from({ length: 20 }, (_, i) => ({
   descripcion: DESC_PH,
 }));
 const galleryEjecucion: GalleryItem[] = Array.from({ length: 20 }, (_, i) => ({
-  
+src:
+  i === 0
+    ? contaderoVistaAerea01
+    : i === 1
+      ? maralagoCuartoMaquinas12
+      : i === 2
+        ? maralagoCuartoMaquinas09
+        : i === 3
+          ? maralagoCuartoMaquinas04
+          : i === 4
+            ? maralagoCuartoMaquinas01
+            : i === 5
+              ? maralagoCuartoMaquinas03
+              : i === 6
+                ? maralagoCuartoMaquinas07
+                : i === 7
+                  ? maralagoCuartoMaquinas05
+                  : i === 8
+                    ? maralagoCuartoMaquinas15
+                    : i === 9
+                      ? maralagoCuartoMaquinas11
+                      : i === 10
+                        ? maralagoCuartoMaquinas06
+                        : i === 11
+                          ? maralagoCuartoMaquinas10
+                          : i === 12
+                            ? maralagoCuartoMaquinas14
+                            : i === 13
+                              ? maralagoCuartoMaquinas02
+                              : i === 14
+                                ? maralagoCuartoMaquinas08
+                                : i === 15
+                                  ? santaFeCuartoMaquinas02
+                                    : i === 16
+                                  ? santaFeCuartoMaquinas01
+                                    : i === 17
+                                  ? maralagoCuartoMaquinas17
+                                   : i === 18
+                                  ? santaFeCuartoMaquinas03
+                                    : i === 19
+                                  ? maralagoCuartoMaquinas13
+                                    : placeholderEjecucion,
+                                  
   alt: `Ingeniería en ejecución ${i + 1}`,
   titulo: TITULO_PH,
   descripcion: DESC_PH,
