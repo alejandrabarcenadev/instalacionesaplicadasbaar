@@ -304,9 +304,29 @@ type GalleryItem = {
   titulo: string;
   descripcion: string;
 };
-
-const TITULO_PH  = "Nombre del proyecto";
-const DESC_PH    = "Aquí va una breve descripción del proyecto, ubicación o trabajo realizado.";
+const TITULOS_PROYECTOS = [
+  "Residencial Torre Palladio",
+  "Conjunto Residencial Las Olas Acapulco",
+  "Be Grand Reforma",
+  "Bay View Grand Venetian Puerto Vallarta",
+  "Residencial Maralago Acapulco",
+  "Grand San Ángel",
+  "Bay View Grand Venetian Puerto Vallarta",
+  "Be Grand Lomas",
+  "Residencial Torre Mallorca",
+  "Hotel Ma. Isabel Sheraton",
+  "Residencial Torre Ibiza",
+  "Be Grand Alto Pedregal",
+  "Be Grand Contadero",
+  "Residencial Royal Reforma",
+  "Be Grand Contadero",
+  "Residencial Grand Polanco",
+  "Colegio Alemán Alexander Von Humboldt A.C.",
+  "Residencial Grand Polanco",
+  "Canon Mills, S.A.",
+  "Automotriz Hermer Mercedes Benz",
+];
+const DESC_PH = "";
 const galleryProyectos: GalleryItem[] = Array.from({ length: 20 }, (_, i) => ({
   src:
   i === 0
@@ -351,55 +371,7 @@ const galleryProyectos: GalleryItem[] = Array.from({ length: 20 }, (_, i) => ({
     ? hermerMercedesBenz01
     : placeholderProyectos,
   alt: `Proyecto destacado ${i + 1}`,
-  titulo: TITULO_PH,
-  descripcion: DESC_PH,
-}));
-const galleryEjecucion: GalleryItem[] = Array.from({ length: 20 }, (_, i) => ({
-src:
-  i === 0
-    ? contaderoVistaAerea01
-    : i === 1
-      ? maralagoCuartoMaquinas12
-      : i === 2
-        ? maralagoCuartoMaquinas09
-        : i === 3
-          ? maralagoCuartoMaquinas04
-          : i === 4
-            ? maralagoCuartoMaquinas01
-            : i === 5
-              ? maralagoCuartoMaquinas03
-              : i === 6
-                ? maralagoCuartoMaquinas07
-                : i === 7
-                  ? maralagoCuartoMaquinas05
-                  : i === 8
-                    ? maralagoCuartoMaquinas15
-                    : i === 9
-                      ? maralagoCuartoMaquinas11
-                      : i === 10
-                        ? maralagoCuartoMaquinas06
-                        : i === 11
-                          ? maralagoCuartoMaquinas10
-                          : i === 12
-                            ? maralagoCuartoMaquinas14
-                            : i === 13
-                              ? maralagoCuartoMaquinas02
-                              : i === 14
-                                ? maralagoCuartoMaquinas08
-                                : i === 15
-                                  ? santaFeCuartoMaquinas02
-                                    : i === 16
-                                  ? santaFeCuartoMaquinas01
-                                    : i === 17
-                                  ? maralagoCuartoMaquinas17
-                                   : i === 18
-                                  ? santaFeCuartoMaquinas03
-                                    : i === 19
-                                  ? maralagoCuartoMaquinas13
-                                    : placeholderEjecucion,
-                                  
-  alt: `Ingeniería en ejecución ${i + 1}`,
-  titulo: TITULO_PH,
+titulo: TITULOS_PROYECTOS[i],
   descripcion: DESC_PH,
 }));
 
@@ -1212,25 +1184,6 @@ export default function App() {
           </FadeIn>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
             {galleryProyectos.map((item, i) => (
-              <FadeIn key={i} delay={Math.floor(i / 5) * 0.06}>
-                <GalleryCard item={item} onClick={() => setLightboxItem(item)} />
-              </FadeIn>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ══ GALERÍA 2 — Ingeniería en ejecución ═════════════ */}
-      <section className="py-24" style={{ background: "#EDF0F5" }}>
-        <div className="max-w-7xl mx-auto px-6 lg:px-10">
-          <FadeIn>
-            <SectionLabel>Galería</SectionLabel>
-            <h2 className="text-3xl lg:text-4xl font-extrabold leading-tight tracking-tight mb-10" style={{ color: NAVY }}>
-              Ingeniería en ejecución
-            </h2>
-          </FadeIn>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
-            {galleryEjecucion.map((item, i) => (
               <FadeIn key={i} delay={Math.floor(i / 5) * 0.06}>
                 <GalleryCard item={item} onClick={() => setLightboxItem(item)} />
               </FadeIn>
