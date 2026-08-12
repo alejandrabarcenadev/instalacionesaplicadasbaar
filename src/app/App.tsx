@@ -1029,8 +1029,17 @@ export default function App() {
               </div>
 
               {/* CTA */}
-              <div className="mt-10 pt-8 border-t" style={{ borderColor: "rgba(13,27,42,0.1)" }}>
-                <p className="italic text-gray-400 mb-5 text-base" style={{ fontFamily: "'Inter', sans-serif" }}>
+                           <div
+                className="mt-10 pt-8 border-t"
+                style={{ borderColor: "rgba(13,27,42,0.1)" }}
+              >
+                <p
+                  className="mb-5 text-3xl font-bold"
+                  style={{
+                    fontFamily: "'Segoe Script', 'Brush Script MT', cursive",
+                    color: "#000000",
+                  }}
+                >
                   Sigamos en contacto.
                 </p>
                 <a
