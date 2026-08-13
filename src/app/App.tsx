@@ -1029,14 +1029,14 @@ export default function App() {
               </div>
 
               {/* CTA */}
-                           <div
+                                  <div
                 className="mt-10 pt-8 border-t"
                 style={{ borderColor: "rgba(13,27,42,0.1)" }}
               >
-                <p
-                  className="mb-5 text-3xl font-bold"
+                               <p
+                  className="mb-5 text-5xl font-normal"
                   style={{
-                    fontFamily: "'Segoe Script', 'Brush Script MT', cursive",
+                    fontFamily: "'Allura', cursive",
                     color: "#000000",
                   }}
                 >
