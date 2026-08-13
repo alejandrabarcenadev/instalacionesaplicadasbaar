@@ -1029,18 +1029,15 @@ export default function App() {
               </div>
 
               {/* CTA */}
-                                  <div
-                className="mt-10 pt-8 border-t"
-                style={{ borderColor: "rgba(13,27,42,0.1)" }}
-              >
-                               <p
-                  className="mb-5 text-5xl font-normal"
+                            <div className="mt-10 pt-4">
+                <p
+                  className="mt-8 mb-12 w-fit origin-bottom-left rotate-[-12deg] text-4xl font-normal sm:ml-6 sm:mb-14 sm:rotate-[-18deg] sm:text-5xl"
                   style={{
                     fontFamily: "'Allura', cursive",
-                    color: "#000000",
+                    color: "#2247b7",
                   }}
                 >
-                  Sigamos en contacto.
+                  Sigamos en contacto
                 </p>
                 <a
                   href="https://tally.so/r/Xxogyd"
