@@ -391,7 +391,7 @@ const chatSugerencias = [
   "¿Qué servicios ofrecen?",
   "¿Cuánta experiencia tienen?",
   "¿En qué sectores trabajan?",
-  "¿Quién es el Ing. Bárcena?",
+  "¿Quién es el Ing.Felipe Bárcena?",
   "¿Qué proyectos han realizado?",
   "¿Cuáles son sus teléfonos?",
   "¿Cuál es su correo electrónico?",
@@ -404,17 +404,17 @@ const chatRespuestas: Record<string, string> = {
   "¿Qué servicios ofrecen?":
     "En BAAR ofrecemos cuatro servicios principales:\n• Ingeniería Hidrosanitaria: sistemas hidráulicos, sanitarios, pluviales, agua tratada, calentamiento central y protección contra incendio.\n• Ingeniería Eléctrica: media y baja tensión, alumbrado, fuerza, telecomunicaciones, tierras y pararrayos.\n• Ingeniería y Desarrollo de Proyectos: proyecto ejecutivo, memorias de cálculo, isométricos, diagramas unifilares y documentación técnica.\n• Acompañamiento Integral: desde la planeación hasta la entrega y puesta en marcha.",
   "¿Cuánta experiencia tienen?":
-    "La trayectoria que respalda a BAAR supera los 40 años. El Ing. Felipe G. Bárcena Sánchez ha participado en el desarrollo de más de 5,377 departamentos con instalaciones construidas, en proyectos habitacionales, turísticos, comerciales e industriales a lo largo de México. BAAR Instalaciones Aplicadas, S.A. de C.V. se constituyó formalmente en 2023 para reunir ese conocimiento.",
+    "La trayectoria que respalda a BAAR supera los 40 años. El Ing. Felipe Bárcena  ha participado en el desarrollo de más de 5,377 departamentos con instalaciones construidas, en proyectos habitacionales, turísticos, comerciales e industriales a lo largo de México. BAAR Instalaciones Aplicadas se constituyó formalmente en 2023 para reunir ese conocimiento.",
   "¿En qué sectores trabajan?":
     "Desarrollamos proyectos en múltiples sectores:\n• 23 Edificios habitacionales\n• 13 Desarrollos turísticos (Cancún, Acapulco, Puerto Vallarta, Ixtapa)\n• 13 Viviendas de interés social\n• 7 Plantas industriales\n• 6 Restaurantes y centros culturales\n• 4 Centros comerciales\n• 3 Agencias automotrices\n• 2 Edificios de oficinas\n• 2 Viviendas de lujo\n• 1 Hotel",
-  "¿Quién es el Ing. Bárcena?":
-    "El Ing. Felipe G. Bárcena Sánchez es el fundador de BAAR Instalaciones Aplicadas. Con más de cuatro décadas de trayectoria, ha liderado el desarrollo de instalaciones hidrosanitarias y eléctricas en proyectos de gran escala, colaborando con firmas de reconocido prestigio como Be Grand y S3Z Arquitectos. Su experiencia abarca más de 5,377 departamentos desarrollados y 84 proyectos en distintos sectores.",
+  "¿Quién es el Ing.Felipe Bárcena?":
+    "El Ing. Felipe Bárcena  es el fundador de BAAR Instalaciones Aplicadas. Con más de cuatro décadas de trayectoria, ha liderado el desarrollo de instalaciones hidrosanitarias y eléctricas en proyectos de gran escala, colaborando con firmas de reconocido prestigio como Be Grand y S3Z Arquitectos. Su experiencia abarca más de 5,377 departamentos desarrollados y 84 proyectos en distintos sectores.",
   "¿Qué proyectos han realizado?":
     "Nuestra trayectoria incluye desarrollos emblemáticos como:\n• Be Grand Reforma (49 niveles, 588 depts., CDMX)\n• Be Grand Pedregal (29 niveles, 314 depts.)\n• Bay View Grand Condominiums (480 depts., Puerto Vallarta)\n• Conjunto Residencial Maralago (172 depts., Acapulco)\n• Grand Polanco Poniente (286 depts.)\n• STPRM Conjunto Habitacional (830 depts.)\nY más de 70 proyectos adicionales en todo México.",
   "¿Cuáles son sus teléfonos?":
     "Puede comunicarse con nosotros por teléfono en los siguientes números:\n\n📞 Administrativa:\n55 9385 8773\n\n🔧 Técnica:\n55 7163 9013\n55 5088 0803\n\nNuestro horario de atención es de lunes a viernes en horario de oficina.",
   "¿Cuál es su correo electrónico?":
-    "Puede escribirnos al siguiente correo electrónico:\n\n✉️ instalacionesaplicadasbaar@gmail.com\n\nTambién puede visitarnos en nuestro sitio web:\n🌐 baarinstalacionesaplicadas.info\n\nResponderemos su mensaje a la brevedad posible.",
+    "Puede escribirnos al siguiente correo electrónico:\n\n✉️ instalacionesaplicadasbaar@gmail.com\n\nTambién puede visitarnos en nuestro sitio web:\n🌐 baarinstalacionesaplicadas.com\n\nResponderemos su mensaje a la brevedad posible.",
   "¿Dónde están ubicados?":
     "Nuestra oficina está ubicada en:\n\n📍 Puente 66 B\nFracc. Jardines del Sur\nXochimilco, Ciudad de México\nC.P. 16050\n\nPuede contactarnos antes de su visita al número administrativo 55 9385 8773 para coordinar una reunión.",
   "¿Cómo solicitar una asesoría?":
@@ -937,7 +937,7 @@ export default function App() {
                   Aunque BAAR Instalaciones Aplicadas se constituye formalmente en 2023, su historia comenzó mucho antes.
                 </p>
                 <p className="text-base text-white/65 leading-relaxed">
-                  Durante más de cuatro décadas, el Ing. Felipe Gerardo Bárcena Sánchez ha participado en el desarrollo de proyectos habitacionales, turísticos, comerciales e industriales que hoy forman parte del crecimiento urbano de México. Esa trayectoria, construida proyecto tras proyecto, dio origen a una empresa con una visión clara: ofrecer soluciones de ingeniería que combinan experiencia, precisión técnica y compromiso con la calidad.
+                  Durante más de cuatro décadas, el Ing. Felipe Bárcena ha participado en el desarrollo de proyectos habitacionales, turísticos, comerciales e industriales que hoy forman parte del crecimiento urbano de México. Esa trayectoria, construida proyecto tras proyecto, dio origen a una empresa con una visión clara: ofrecer soluciones de ingeniería que combinan experiencia, precisión técnica y compromiso con la calidad.
                 </p>
                 <p className="text-base text-white/65 leading-relaxed">
                   BAAR nace para reunir ese conocimiento y convertirlo en una organización preparada para responder a los retos actuales de la construcción, desarrollando instalaciones hidrosanitarias y eléctricas que aportan seguridad, eficiencia y valor a largo plazo.
@@ -981,13 +981,13 @@ export default function App() {
               <FadeIn direction="left" delay={0.08}>
                 <div className="space-y-5" style={{ fontFamily: "'Inter', sans-serif" }}>
                   <p className="text-base text-white/65 leading-relaxed">
-                    En BAAR Instalaciones Aplicadas, S.A. de C.V. creemos que la ingeniería es mucho más que construir instalaciones: es crear la infraestructura que permite a las personas vivir, trabajar y desarrollarse con seguridad y confianza.
+                    En BAAR Instalaciones Aplicadas creemos que la ingeniería es mucho más que construir instalaciones: es crear la infraestructura que permite a las personas vivir, trabajar y desarrollarse con seguridad y confianza.
                   </p>
                   <p className="text-base text-white/65 leading-relaxed">
                     Somos una empresa mexicana con sede en la Ciudad de México, especializada en ingeniería hidrosanitaria y eléctrica para proyectos de alta complejidad, participando en desarrollos habitacionales verticales, complejos turísticos, edificios corporativos e infraestructura que exige precisión técnica y un alto nivel de especialización.
                   </p>
                   <p className="text-base text-white/65 leading-relaxed">
-                    Respaldados por la experiencia del Ing. Felipe Bárcena Sánchez, con más de cuatro décadas de trayectoria y miles de unidades desarrolladas junto a firmas de reconocido prestigio como Be Grand y S3Z Arquitectos, integramos conocimiento, innovación y una ejecución rigurosa para ofrecer soluciones que generan valor desde la etapa de planeación hasta la entrega final.
+                    Respaldados por la experiencia del Ing. Felipe Bárcena , con más de cuatro décadas de trayectoria y miles de unidades desarrolladas junto a firmas de reconocido prestigio como Be Grand y S3Z Arquitectos, integramos conocimiento, innovación y una ejecución rigurosa para ofrecer soluciones que generan valor desde la etapa de planeación hasta la entrega final.
                   </p>
                 </div>
               </FadeIn>
@@ -1029,7 +1029,7 @@ export default function App() {
                   style={{ boxShadow: "0 32px 64px rgba(13,27,42,0.14)" }}>
                   <ImageWithFallback
                     src={ingFelipeFoto}
-                    alt="Ing. Felipe G. Bárcena Sánchez — Fundador de BAAR Instalaciones Aplicadas"
+                    alt="Ing. Felipe  Bárcena  — Fundador de BAAR Instalaciones Aplicadas"
                     className="w-full object-cover object-top"
                     style={{ aspectRatio: "4/5" }}
                   />
@@ -1046,7 +1046,7 @@ export default function App() {
             {/* Texto */}
             <FadeIn direction="right">
               <h2 className="text-4xl lg:text-5xl font-extrabold leading-tight tracking-tight mb-2" style={{ color: NAVY }}>
-                Ing. Felipe G. Bárcena Sánchez
+                Ing. Felipe Bárcena
               </h2>
               <p className="text-sm font-semibold uppercase tracking-widest mb-8" style={{ color: BLUE, fontFamily: "'Inter', sans-serif" }}>
                 Fundador · BAAR Instalaciones Aplicadas
@@ -1063,7 +1063,7 @@ export default function App() {
               {/* Descripción extraída del perfil */}
               <div className="space-y-4" style={{ fontFamily: "'Inter', sans-serif" }}>
                 <p className="text-base text-gray-600 leading-relaxed">
-                  Durante más de cuatro décadas, el Ing. Felipe Gerardo Bárcena Sánchez ha participado en el desarrollo de proyectos habitacionales, turísticos, comerciales e industriales que hoy forman parte del crecimiento urbano de México.
+                  Durante más de cuatro décadas, el Ing. Felipe  Bárcena ha participado en el desarrollo de proyectos habitacionales, turísticos, comerciales e industriales que hoy forman parte del crecimiento urbano de México.
                 </p>
                 <p className="text-base text-gray-600 leading-relaxed">
                   Su trayectoria incluye colaboraciones con firmas de reconocido prestigio como Be Grand y S3Z Arquitectos, desarrollando instalaciones hidrosanitarias y eléctricas en 84 proyectos de distintos sectores a lo largo del país: desde conjuntos residenciales verticales de alta especialización hasta desarrollos turísticos de gran escala en Cancún, Puerto Vallarta, Acapulco e Ixtapa Zihuatanejo.
@@ -1359,10 +1359,10 @@ export default function App() {
                       </div>
                       <div className="flex items-center gap-2 mt-1">
                         <Globe size={13} style={{ color: CYAN, flexShrink: 0 }} />
-                        <a href="https://baarinstalacionesaplicadas.info" target="_blank" rel="noopener noreferrer"
+                        <a href="https://baarinstalacionesaplicadas.com" target="_blank" rel="noopener noreferrer"
                           className="text-xs text-white/50 hover:text-white transition-colors"
                           style={{ fontFamily: "'Inter', sans-serif" }}>
-                          baarinstalacionesaplicadas.info
+                          baarinstalacionesaplicadas.com
                         </a>
                       </div>
                     </div>
@@ -1386,13 +1386,16 @@ export default function App() {
               <p className="text-sm text-white/40 leading-relaxed mb-3" style={{ fontFamily: "'Inter', sans-serif" }}>
                 Ingeniería hidrosanitaria y eléctrica de alta especialización para proyectos de alto impacto en México.
               </p>
-              <a href="https://baarinstalacionesaplicadas.info" target="_blank" rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 text-xs text-white/30 hover:text-white/60 transition-colors"
-                style={{ fontFamily: "'Inter', sans-serif" }}>
-                <Globe size={11} /> baarinstalacionesaplicadas.info
-              </a>
-            </div>
-
+              <a
+  href="https://baarinstalacionesaplicadas.com"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center gap-1.5 text-xs text-white/30 hover:text-white/60 transition-colors"
+  style={{ fontFamily: "'Inter', sans-serif" }}
+>
+  <Globe size={11} /> baarinstalacionesaplicadas.com
+</a>
+</div>
             {/* Empresa */}
             <div>
               <h4 className="text-xs font-semibold uppercase tracking-widest text-white/30 mb-4" style={{ fontFamily: "'Inter', sans-serif" }}>Empresa</h4>
