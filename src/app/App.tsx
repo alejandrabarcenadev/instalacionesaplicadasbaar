@@ -171,16 +171,15 @@ const categorias: Categoria[] = [
     label: "Desarrollo habitacional y vivienda de lujo",
     labelCorto: "Habitacional y vivienda de lujo",
     proyectos: [
-      { nombre: "Conjunto Residencial Trianon", caracteristicas: "13 niveles", ubicacion: "Paseo de los Ahuehuetes, Col. Bosques de las Lomas, México D.F.", atencion: "Arq. Salomón Gorstein / Arq. Elías Fasja", instalaciones: ["Hidrosanitaria", "PCI"] },
-      { nombre: "Trianon Conjunto Residencial", caracteristicas: "Dos torres (Versalles y Vendome), 7 niveles, 52 departamentos", ubicacion: "San Francisco, Col. Del Valle", atencion: "Ing. Arq. Salomón Gorstein / Arq. Elías Fasja", instalaciones: ["Eléctrica", "Hidrosanitaria", "PCI"] },
+     { nombre: "Trianon Conjunto Residencial", caracteristicas: "Dos torres, Versalles y Vendome, de 7 niveles y 52 departamentos", ubicacion: "Paseo de los Ahuehuetes, Col. Bosques de las Lomas, México D.F.", atencion: "Arq. Salomón Gorshtein / Arq. Elías Fasja", instalaciones: ["Hidrosanitaria", "PCI"] },
       { nombre: "Casa Fam. Cababie", ubicacion: "Conjunto Residencial La Loma, Bosques de las Lomas", atencion: "Sr. Rafael Cababie / Arq. Ricardo Sanz / Arq. Gitlin", instalaciones: ["Eléctrica", "Hidrosanitaria"] },
       { nombre: "Edificio Balcones de la Herradura", caracteristicas: "10 niveles", ubicacion: "Balcones de la Herradura, Naucalpan, Estado de México", atencion: "Ing. Yeshua Gitlin", instalaciones: ["Eléctrica", "Hidrosanitaria", "PCI"] },
-      { nombre: "Conjunto Residencial Amatepec Du Park", caracteristicas: "Dos torres de 7 niveles, 14 departamentos", ubicacion: "Sierra Amatepec 34, Lomas de Chapultepec", atencion: "Arq. Salomón Gorstein / Arq. Elías Fasja", instalaciones: ["Hidrosanitaria", "PCI"] },
+      { nombre: "Conjunto Residencial Amatepec Du Park", caracteristicas: "Dos torres de 7 niveles, 14 departamentos", ubicacion: "Sierra Amatepec 34, Lomas de Chapultepec", atencion: "Arq. Salomón Gorshtein / Arq. Elías Fasja", instalaciones: ["Hidrosanitaria", "PCI"] },
       { nombre: "Casa Fam. Jalife", ubicacion: "Conjunto Residencial La Loma, Bosques de las Lomas", atencion: "Ing. Jaime Jalife / Arq. Ricardo Sanz / Arq. Gitlin", instalaciones: ["Eléctrica", "Hidrosanitaria"] },
       { nombre: "Edificio Río Danubio", ubicacion: "Río Danubio, México D.F.", atencion: "Arq. Jacobo Guzic", instalaciones: ["Eléctrica", "Hidrosanitaria", "PCI"] },
       { nombre: "Conjunto Residencial Royal Reforma", caracteristicas: "Tres torres, 20 niveles, 120 departamentos", ubicacion: "Prolongación Bosque de Reforma", atencion: "Arq. Gorsthein Fasja / Arq. Ricardo Sanz", instalaciones: ["Hidrosanitaria", "PCI"] },
       { nombre: "Jalo, S.A.", caracteristicas: "Edificio de 8 niveles", ubicacion: "San Francisco, Col. Del Valle", atencion: "Ing. Mauricio Fertman", instalaciones: ["Eléctrica", "Hidrosanitaria", "PCI"] },
-      { nombre: "Torre Palmas Kamerum", caracteristicas: "Edificio de 28 niveles, 106 departamentos", ubicacion: "Palmas Kamerum Esq. Periférico", atencion: "Arq. José Daniel K. / Don David Daniel K. / Ing. David Seur", instalaciones: ["Eléctrica"] },
+      { nombre: "Torre Palmas Kamerum", caracteristicas: "Edificio de 28 niveles, 106 departamentos", ubicacion: "Palmas Kamerum Esq. Periférico", atencion: "Arq. José Daniel K. / Sr. David Daniel K. / Ing. David Seur", instalaciones: ["Eléctrica"] },
     ],
   },
   {
@@ -195,10 +194,10 @@ const categorias: Categoria[] = [
       { nombre: "Conjunto Residencial Grand San Ángel Fase 2", caracteristicas: "Una torre de 31 niveles, 265 departamentos", ubicacion: "Calle de Iglesia No. 280 Esq. Eje 10 Sur, Col. Tizapán San Ángel", atencion: "Be Grand / Grupo S3Z Sanz Arquitectos", instalaciones: ["Calentamiento central", "Eléctrica M.T.", "Eléctrica B.T.", "Hidrosanitaria", "PCI"] },
       { nombre: "Conjunto Residencial Be Grand Lomas T1 y T2", caracteristicas: "Dos torres de 21 y 20 niveles, 192 departamentos", ubicacion: "Carretera Federal México–Toluca No. 3037, Col. Paseo de las Lomas", atencion: "Be Grand / Grupo S3Z Sanz Arquitectos", instalaciones: ["Eléctrica", "Hidrosanitaria", "PCI"] },
       { nombre: "Conjunto Residencial Be Grand Lomas T3 y T4", caracteristicas: "Tres torres, 20 niveles, 120 departamentos", ubicacion: "Carretera Federal México–Toluca No. 3037, Col. Paseo de las Lomas", atencion: "Be Grand / Grupo S3Z Sanz Arquitectos", instalaciones: ["Eléctrica", "Hidrosanitaria", "PCI"] },
-      { nombre: "Casa Club Be Grand Park Canoa", caracteristicas: "Amenidades / casa club", ubicacion: "Amenidades en la Casona Eje 10 Sur, Col. Tizapán San Ángel", atencion: "Sr. Nicolás Carrancedo / Arq. Ricardo Sanz", instalaciones: ["Eléctrica", "Hidrosanitaria"] },
+      { nombre: "Casa Club Be Grand Park Canoa", caracteristicas: "Amenidades / Casa club", ubicacion: "Amenidades en la Casona Eje 10 Sur, Col. Tizapán San Ángel", atencion: "Sr. Nicolás Carrancedo / Arq. Ricardo Sanz", instalaciones: ["Eléctrica", "Hidrosanitaria"] },
       { nombre: "Conjunto Residencial Be Grand Pedregal", caracteristicas: "Una torre de 29 niveles, 314 departamentos", ubicacion: "Periférico Sur No. 3201, Col. Pedregal", atencion: "Be Grand / Grupo S3Z", instalaciones: ["Calentamiento central", "Eléctrica", "Hidrosanitaria", "PCI"] },
       { nombre: "Conjunto Residencial Be Grand Alto Pedregal", caracteristicas: "Dos torres de 30 niveles, 331 departamentos", ubicacion: "Anillo Periférico Blvd. Adolfo López Mateos 5146, Pedregal de Carrasco, Coyoacán, CDMX", atencion: "Be Grand / Grupo S3Z Sanz Arquitectos", instalaciones: ["Eléctrica", "Hidrosanitaria", "PCI"] },
-      { nombre: "Conjunto Residencial Be Grand Contadero", caracteristicas: "Dos torres", ubicacion: "Carretera México–Toluca 5804, Contadero, Cuajimalpa de Morelos, CDMX", atencion: "Be Grand / Grupo S3Z Sanz Arquitectos", instalaciones: ["Calentamiento central", "Eléctrica", "Hidrosanitaria", "PCI"] },
+      { nombre: "Conjunto Residencial Be Grand Contadero", caracteristicas: "Torre 1 y Torre 2, 580 departamentos", ubicacion: "Carretera México–Toluca 5804, Contadero, Cuajimalpa de Morelos, CDMX", atencion: "Be Grand / Grupo S3Z Sanz Arquitectos", instalaciones: ["Calentamiento central", "Eléctrica", "Hidrosanitaria", "PCI"] },
       { nombre: "Conjunto Residencial Be Grand Reforma", caracteristicas: "Edificio de 49 niveles, 588 departamentos", ubicacion: "Lafragua 13, Tabacalera, Cuauhtémoc, CDMX", atencion: "Be Grand / Grupo S3Z Sanz Arquitectos", instalaciones: ["Calentamiento central", "Eléctrica", "Hidrosanitaria", "PCI"] },
     ],
   },
@@ -213,12 +212,12 @@ const categorias: Categoria[] = [
       { nombre: "Conjunto Residencial Porto Fino Vallarta", caracteristicas: "6 torres de 12 niveles y 220 departamentos", ubicacion: "Fracc. Marina Vallarta, Puerto Vallarta, Jalisco", atencion: "Sr. Elías Sacal Cababie / Arq. Ricardo Sanz", instalaciones: ["Eléctrica M.T.", "Eléctrica B.T.", "Hidrosanitaria", "PCI"] },
       { nombre: "Residencial Bay View Grand Venetian Puerto Vallarta", caracteristicas: "140 departamentos, Torre Mil, 18 niveles", ubicacion: "Río Santiago 201, Fluvial Vallarta, Puerto Vallarta, Jalisco", atencion: "Sr. Elías Sacal Cababie / Arq. Ricardo Sanz", instalaciones: ["Eléctrica", "Hidrosanitaria", "PCI"] },
       { nombre: "Residencial Torre Palladio", caracteristicas: "18 niveles y 72 departamentos", ubicacion: "Acapulco, Gro.", atencion: "Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica M.T.", "Eléctrica B.T.", "Hidrosanitaria", "PCI"] },
-      { nombre: "Residencial Bay View Grand Condominiums", caracteristicas: "480 departamentos, 10 torres, 13 niveles", ubicacion: "Puerto Vallarta, Jalisco", atencion: "Sr. Elías Sacal Cababie / Arq. Ricardo Sanz", instalaciones: ["Eléctrica M.T.", "Eléctrica B.T.", "Hidrosanitaria", "PCI"] },
+      { nombre: "Residencial Bay View Grand Puerto Vallarta", caracteristicas: "480 departamentos, 10 torres, 13 niveles", ubicacion: "Puerto Vallarta, Jalisco", atencion: "Sr. Elías Sacal Cababie / Arq. Ricardo Sanz", instalaciones: ["Eléctrica M.T.", "Eléctrica B.T.", "Hidrosanitaria", "PCI"] },
       { nombre: "Conjunto Residencial Maralago Acapulco", caracteristicas: "7 torres, 12 niveles y 172 departamentos", ubicacion: "Av. Costera de las Palmas, Acapulco Diamante", atencion: "GICSA / Arq. Rafael Harari / Arq. Ricardo Sanz", instalaciones: ["Eléctrica M.T.", "Eléctrica B.T.", "Hidrosanitaria", "PCI"] },
       { nombre: "Hotel Ma. Isabel Sheraton", caracteristicas: "Remodelación de cocina principal, cocina italiana, cocina kosher, lavandería y cuarto de máquinas", ubicacion: "Sheraton Cd. de México Reforma", atencion: "Ing. Raúl Forgach / Lic. Daniel Liwerant", instalaciones: ["Eléctrica", "Hidrosanitaria", "PCI"] },
       { nombre: "Bay View Grand Ixtapa Residencial", caracteristicas: "176 departamentos, 3 torres, 14 niveles", ubicacion: "Marina Ixtapa, Ixtapa Zihuatanejo", atencion: "Sr. Elías Sacal Cababie / Arq. Ricardo Sanz", instalaciones: ["Eléctrica M.T.", "Eléctrica B.T.", "Hidrosanitaria", "PCI"] },
       { nombre: "Conjunto Residencial Las Olas Acapulco", caracteristicas: "110 departamentos, 10 torres", ubicacion: "Av. Costera de las Palmas, Acapulco, Gro.", atencion: "GICSA / Arq. Rafael Harari / Arq. Ricardo Sanz", instalaciones: ["Eléctrica M.T.", "Eléctrica B.T.", "Hidrosanitaria", "PCI"] },
-      { nombre: "Bay View Grand Porto Chervo Residencial", caracteristicas: "36 departamentos, 3 torres, 7 niveles", ubicacion: "Av. Costera Guitarrón, Las Brisas, Acapulco, Gro.", atencion: "Sr. Elías Sacal Cababie / Arq. Ricardo Sanz", instalaciones: ["Eléctrica M.T.", "Eléctrica B.T.", "Hidrosanitaria", "PCI"] },
+      { nombre: "Bay View Grand Porto Chervo Residencial", caracteristicas: "36 departamentos, 3 torres, 7 niveles", ubicacion: "Av. Costera Guitarrón, Las Brisas, Acapulco, Gro.", atencion: "Elías Sacal Cababie / Arq. Ricardo Sanz", instalaciones: ["Eléctrica M.T.", "Eléctrica B.T.", "Hidrosanitaria"] },
       { nombre: "Residencial Torre Ibiza", caracteristicas: "18 niveles y 36 departamentos", ubicacion: "Comandante Fernando Silíceo, Acapulco, Gro.", atencion: "Arq. Gorsthein-Fasja / Lic. Daniel Liwerant / Arq. Ricardo Sanz", instalaciones: ["Eléctrica", "Hidrosanitaria", "PCI"] },
     ],
   },
@@ -227,18 +226,18 @@ const categorias: Categoria[] = [
     label: "Desarrollo habitacional de interés social",
     labelCorto: "Interés Social",
     proyectos: [
-      { nombre: "STPRM Conjunto Habitacional", caracteristicas: "83 edificios, 830 departamentos", ubicacion: "Margarita Maza de Juárez y Vallejo, México D.F.", atencion: "Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria"] },
-      { nombre: "STPRM Conjunto Urbano Azcapotzalco", caracteristicas: "Tres torres, 10 niveles", ubicacion: "México D.F.", atencion: "Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria", "PCI"] },
-      { nombre: "STPRM Conjunto Habitacional Coaplaza", ubicacion: "México D.F.", atencion: "Arq. José Daniel K. / Sr. David Daniel K.", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria"] },
-      { nombre: "STPRM Conjunto Habitacional Picacho", caracteristicas: "50 edificios, 500 departamentos", ubicacion: "México D.F.", atencion: "Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria"] },
-      { nombre: "STPRM Conjunto Habitacional Carrillo Puerto", caracteristicas: "Tres edificios de 13 niveles, 156 departamentos", ubicacion: "Carrillo Puerto, México D.F.", atencion: "Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria", "PCI"] },
-      { nombre: "Conjunto Bosques del Valle", caracteristicas: "Dos torres de 7 niveles", ubicacion: "Fracc. Bosques del Valle, Estado de México", atencion: "Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria"] },
-      { nombre: "Conjunto Habitacional Izcalli", ubicacion: "Fracc. Izcalli, Coacalco, Estado de México", atencion: "Lic. Ricardo Weitz", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria"] },
-      { nombre: "Conjunto Habitacional Promotora de Desarrollo Urbano, S.A.", ubicacion: "Parque Residencial Coacalco, Estado de México", atencion: "Lic. Ricardo Weitz", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria"] },
-      { nombre: "Conjunto Urbano Rosarito Pemex", ubicacion: "Rosarito, Baja California", atencion: "Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria", "PCI"] },
-      { nombre: "Conjunto Urb. Villahermosa Pemex", ubicacion: "Villahermosa, Tabasco", atencion: "Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria", "PCI"] },
-      { nombre: "Unidad Hab. Coacalco Constructora Alpad", ubicacion: "Parque Residencial Coacalco", atencion: "Lic. Roberto Weitz", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria"] },
-      { nombre: "STPRM Conjunto Habitacional Torres Pancardo", ubicacion: "Poza Rica, Veracruz", atencion: "Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria", "PCI"] },
+      { nombre: "STPRM Conjunto Habitacional Vallejo", caracteristicas: "83 edificios, 830 departamentos", ubicacion: "Margarita Maza de Juárez y Vallejo, México, D.F.", atencion: "Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria"] },
+      { nombre: "STPRM Conjunto Urbano Azcapotzalco", caracteristicas: "Tres torres, 10 niveles, 90 departamentos", ubicacion: "México, D.F.", atencion: "Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria"] },
+      { nombre: "Conjunto Habitacional Coaplaza", ubicacion: "México D.F.", atencion: "Arq. José Daniel K. / Sr. David Daniel K.", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria"] },
+      { nombre: "STPRM Conjunto Habitacional Picacho", caracteristicas: "50 edificios, 500 departamentos", ubicacion: "México, D.F.", atencion: "Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria"] },
+      { nombre: "STPRM Conjunto Habitacional Carrillo Puerto", caracteristicas: "Tres edificios de 13 niveles, 156 departamentos", ubicacion: "Carrillo Puerto, México, D.F.", atencion: "Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria"] },
+      { nombre: "Conjunto Bosques del Valle", caracteristicas: "Dos torres de 7 niveles", ubicacion: "Fracc. Bosques del Valle, Estado de México", atencion: "Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria"] },
+      { nombre: "Conjunto Habitacional Izcalli", ubicacion: "Fracc. Izcalli, Coacalco, Estado de México", atencion: "Lic. Ricardo Weitz", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria"] },
+      { nombre: "Conjunto Habitacional Promotora de Desarrollo Urbano, S.A.", ubicacion: "Parque Residencial Coacalco, Estado de México", atencion: "Lic. Ricardo Weitz", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria"] },
+      { nombre: "Conjunto Urbano Rosarito Pemex", ubicacion: "Rosarito, Baja California", atencion: "Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria"] },
+      { nombre: "Conjunto Urb. Villahermosa Pemex", ubicacion: "Villahermosa, Tabasco", atencion: "Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria"] },
+      { nombre: "Unidad Hab. Coacalco Constructora Alpad", ubicacion: "Parque Residencial Coacalco", atencion: "Lic. Roberto Weitz", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria"] },
+      { nombre: "STPRM Conjunto Habitacional Torres Pancardo", ubicacion: "Poza Rica, Veracruz", atencion: "Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica M.T.", "Eléctrica B.T.", "Hidrosanitaria"] },
     ],
   },
   {
@@ -246,19 +245,19 @@ const categorias: Categoria[] = [
     label: "Desarrollo de oficinas, corporativos e industria",
     labelCorto: "Oficinas, corporativos e industria",
     proyectos: [
-      { nombre: "Edificio de Oficinas Torre Anáhuac SEDESOL", caracteristicas: "Torre de 25 niveles", ubicacion: "Paseo de la Reforma Esq. La Fragua, México D.F.", atencion: "Sr. Elías Sacal Cababie / Arq. Harari / Arq. Ricardo Sanz", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria", "PCI"] },
-      { nombre: "Edificio de Oficinas Torre Monterrey, sede de la Secretaría de Salud", caracteristicas: "Torre de 12 niveles", ubicacion: "Monterrey", atencion: "Sr. Elías Sacal Cababie / Arq. Ricardo Sanz", instalaciones: ["Eléctrica M.T.", "Eléctrica B.T.", "Hidrosanitaria", "PCI"] },
-      { nombre: "Yoli, Coca-Cola de Acapulco", ubicacion: "Av. Costera de las Palmas, Acapulco, Gro.", atencion: "Arq. Francisco Serrano / Arq. Pablo Serrano / Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria", "PCI"] },
-      { nombre: "Industria Textil Ligera", caracteristicas: "Edificio", ubicacion: "Av. Del Taller, México D.F.", atencion: "Sr. Roberto Sarraf / Arq. Ricardo Sanz", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria", "PCI"] },
-      { nombre: "Industria Textil de Grabado", ubicacion: "Calz. de la Viga, México D.F.", atencion: "Desarrollos Int. Textiles / Arq. Ricardo Sanz", instalaciones: ["Eléctrica M.T.", "Eléctrica B.T.", "Hidrosanitaria", "PCI"] },
-      { nombre: "Industria Textil de Tejido", ubicacion: "Lago Iseo 236, Col. Anáhuac, México D.F.", atencion: "Sr. Alfonso Entebi / Arq. Ricardo Sanz", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria", "PCI"] },
-      { nombre: "Encajes Europeos, S.A.", caracteristicas: "Planta textil", ubicacion: "Aragón, México D.F.", atencion: "Lic. Miguel K.", instalaciones: ["Eléctrica"] },
-      { nombre: "Canon Mill, S.A.", caracteristicas: "Planta de medias para dama", ubicacion: "San Francisco Soyaniquilpan, Estado de México", atencion: "Sr. Salomón Balas", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria"] },
-      { nombre: "Canon Mill, S.A. — Chapa de Mota", caracteristicas: "Planta de medias para dama", ubicacion: "Chapa de Mota / San Bartolo, Estado de México", atencion: "Sr. Salomón Balas", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria"] },
-      { nombre: "Prefabricados Roga, S.A.", ubicacion: "Kilómetro 25, Carretera México–Querétaro", atencion: "Arq. Conrado Montaño", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria"] },
-      { nombre: "Brava, S.A.", caracteristicas: "Fabricación de casetas automotrices de fibra de vidrio", ubicacion: "Cuautitlán Izcalli, Estado de México", atencion: "Lic. Cauduro / Arq. Conrado Montaño", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria"] },
-      { nombre: "Proyecto Novotex", ubicacion: "Autopista Querétaro, Kilómetro 25", atencion: "Sr. Jaime Micha", instalaciones: ["Eléctrica M.T.", "Eléctrica B.T."] },
-      { nombre: "Textivisión", caracteristicas: "Fabricación de tela de acrílico elástica", ubicacion: "Fulton Esq. Toltecas, Tlalnepantla", atencion: "Sr. Rafael Cababie / Ing. Jaime Jalife / Arq. Ricardo Sanz", instalaciones: ["Eléctrica M.T.", "Eléctrica B.T.", "Hidrosanitaria", "PCI"] },
+      { nombre: "Edificio de Oficinas Torre Anáhuac SEDESOL", caracteristicas: "Torre de 25 niveles", ubicacion: "Paseo de la Reforma Esq. La Fragua, México, D.F.", atencion: "Sr. Elías Sacal Cababie / Arq. Harari / Arq. Ricardo Sanz", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria"] },
+      { nombre: "Edificio de Oficinas Torre Monterrey, sede de la Secretaría de Salud", caracteristicas: "Torre de 12 niveles", ubicacion: "Monterrey", atencion: "Ing. Elías Sacal Cababie / Arq. Ricardo Sanz", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria", "PCI"] },
+      { nombre: "Yoli, Coca-Cola de Acapulco", ubicacion: "Av. Costera de las Palmas, Acapulco, Gro.", atencion: "Arq. Francisco Serrano / Arq. Pablo Serrano / Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica M.T.", "Eléctrica B.T.", "Hidrosanitaria"] },
+      { nombre: "Industria Textil Ligera", caracteristicas: "Edificio", ubicacion: "Av. del Taller, México, D.F.", atencion: "Sr. Roberto Sarraf / Arq. Ricardo Sanz", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria"] },
+      { nombre: "Industria Textil de Grabado", ubicacion: "Calz. de la Viga, México, D.F.", atencion: "Desarrollos Int. Textiles / Arq. Ricardo Sanz", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria"] },
+      { nombre: "Industria Textil de Tejido", ubicacion: "Lago Iseo 236, Col. Anáhuac, México, D.F.", atencion: "Sr. Alfonso Entebi / Arq. Ricardo Sanz", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria", "PCI"] },
+      { nombre: "Encajes Europeos, S.A.", caracteristicas: "Planta textil", ubicacion: "Aragón, México, D.F.", atencion: "Lic. Miguel K.", instalaciones: ["Eléctrica M.T."] },
+      { nombre: "Cannon Mills, S.A.", caracteristicas: "Planta de medias para dama", ubicacion: "San Francisco Soyaniquilpan, Estado de México", atencion: "Sr. Salomón Balas", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria"] },
+      { nombre: "Cannon Mills, S.A. — Chapa de Mota", caracteristicas: "Planta de medias para dama", ubicacion: "Chapa de Mota / San Bartolo, Estado de México", atencion: "Sr. Salomón Balas", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria"] },
+      { nombre: "Prefabricados Roga, S.A.", ubicacion: "Kilómetro 25, Carretera México–Querétaro", atencion: "Arq. Conrado Montaño", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria"] },
+      { nombre: "Brava, S.A.", caracteristicas: "Fabricación de casetas automotrices de fibra de vidrio", ubicacion: "Cuautitlán Izcalli, Estado de México", atencion: "Lic. Cauduro / Arq. Conrado Montaño", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria"] },
+      { nombre: "Proyecto Novotex", ubicacion: "Autopista Querétaro, Kilómetro 25", atencion: "Sr. Jaime Micha", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria"] },
+      { nombre: "Textivisión", caracteristicas: "Fabricación de tela de acrílico elástica", ubicacion: "Fulton Esq. Toltecas, Tlalnepantla", atencion: "Sr. Rafael Cababie / Ing. Jaime Jalife / Arq. Ricardo Sanz", instalaciones: ["Eléctrica M.T.", "Eléctrica B.T.", "Hidrosanitaria"] },
     ],
   },
   {
@@ -266,18 +265,19 @@ const categorias: Categoria[] = [
     label: "Desarrollo comercial y restaurantes",
     labelCorto: "Centros comerciales y restaurantes",
     proyectos: [
-      { nombre: "Suburbia Parroquia Plaza Universidad", caracteristicas: "Remodelación", ubicacion: "Parroquia esq. Holbein, Sta. Cruz, México D.F.", atencion: "Grupo Cifra / Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria", "PCI"] },
-      { nombre: "Suburbia Plaza Henry Ford", caracteristicas: "Remodelación", ubicacion: "Calzada la Villa", atencion: "Grupo Cifra / Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria", "PCI"] },
-      { nombre: "Centro Comercial Pasaje Capital", caracteristicas: "Remodelación", ubicacion: "20 de Noviembre a la calle de Pino Suárez", atencion: "Sr. Jaime Zonana Esquenazi / Arq. Ricardo Sanz", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria", "PCI"] },
-      { nombre: "Suburbia Saldos", caracteristicas: "Remodelación", ubicacion: "Acueducto de Guadalupe, México D.F.", atencion: "Grupo Cifra / Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria", "PCI"] },
-      { nombre: "Centro Comercial Pallodio Center Ascamill", ubicacion: "Acapulco, Gro.", atencion: "Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria"] },
-      { nombre: "Bodega Aurrera Center", caracteristicas: "Remodelación", ubicacion: "Pachuca, Hidalgo", atencion: "Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria", "PCI"] },
-      { nombre: "Vip's", ubicacion: "Calz. de la Viga, México D.F.", atencion: "Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria", "PCI"] },
-      { nombre: "Vip's", ubicacion: "Naucalpan", atencion: "Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria", "PCI"] },
-      { nombre: "Vip's", ubicacion: "Mundo E, Estado de México", atencion: "Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria", "PCI"] },
-      { nombre: "Vip's", ubicacion: "Plaza Dorada, Puebla, México", atencion: "Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria", "PCI"] },
-      { nombre: "El Portón", ubicacion: "Pachuca, Hidalgo", atencion: "Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria", "PCI"] },
-      { nombre: "Daruma", ubicacion: "Plaza Lilas, Bosque de las Lomas", atencion: "Arq. Ricardo Sanz", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria", "PCI"] },
+      { nombre: "Suburbia Parroquia Plaza Universidad", caracteristicas: "Remodelación", ubicacion: "Parroquia Esq. Holbein, Sta. Cruz, México, D.F.", atencion: "Grupo Cifra / Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria", "PCI"] },
+      { nombre: "Suburbia Plaza Henry Ford", caracteristicas: "Remodelación", ubicacion: "Calzada de Guadalupe", atencion: "Grupo Cifra / Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria", "PCI"] },
+      { nombre: "Centro Comercial Pasaje Capital", caracteristicas: "Construcción", ubicacion: "20 de Noviembre a la calle de Pino Suárez", atencion: "Sr. Jaime Zonana Esquenazi / Arq. Ricardo Sanz", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria"] },
+      { nombre: "Suburbia Saldos", caracteristicas: "Remodelación", ubicacion: "Acueducto de Guadalupe, México, D.F.", atencion: "Grupo Cifra / Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria", "PCI"] },
+      { nombre: "Centro Comercial Palladium Center Ascamil", ubicacion: "Acapulco, Gro.", atencion: "Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria"] },
+      { nombre: "Bodega Aurrera Center", caracteristicas: "Remodelación", ubicacion: "Pachuca, Hidalgo", atencion: "Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria", "PCI"] },
+      { nombre: "Vip’s", ubicacion: "Calz. de la Viga, México, D.F.", atencion: "Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria"] },
+      { nombre: "Vip’s", ubicacion: "Naucalpan", atencion: "Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria"] },
+      { nombre: "Vip’s", ubicacion: "Mundo E, Estado de México", atencion: "Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria"] },
+      { nombre: "Vip’s", ubicacion: "Plaza Dorada, Puebla, México", atencion: "Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria"] },
+      { nombre: "El Portón", ubicacion: "Pachuca, Hidalgo", atencion: "Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria"] },
+      { nombre: "Daruma", ubicacion: "Plaza Lilas, Bosque de las Lomas", atencion: "Arq. Ricardo Sanz", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria"] },
+      { nombre: "Juguetibici", ubicacion: "P.º de la Herradura Mz. 2, Lt. 8, La Herradura, 52760 Naucalpan de Juárez, Méx.", atencion: "Arq. Ricardo Sanz / Sr. Ariel Perla", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria"] },
     ],
   },
   {
@@ -285,14 +285,14 @@ const categorias: Categoria[] = [
     label: "Desarrollo institucional, cultural, educativo, religioso y automotriz",
     labelCorto: "Cultural, colegios, templos y agencias",
     proyectos: [
-      { nombre: "Centro Cultural y Recreativo Israelita de México — Secundaria y Preparatoria", ubicacion: "Lomas del Recuerdo No. 44", atencion: "Sr. Aaron Jaet / Arq. Salomón Gorsthein / Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica M.T.", "Eléctrica B.T.", "Hidrosanitaria", "PCI"] },
-      { nombre: "Centro Cultural y Recreativo Israelita de México — Edificio Administrativo", ubicacion: "Lomas del Recuerdo No. 44", atencion: "Ing. Yuri Tartakoski / Arq. Julio Tartakoski", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria", "PCI"] },
-      { nombre: "Templo Eliyahu", ubicacion: "Fuente de Templanza / Fuente de la Huerta, Tecamachalco", atencion: "Arq. Rafael Salame / Arq. Elías Fasja / Arq. Salomón Gorsthein", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria", "PCI"] },
-      { nombre: "Tevila", ubicacion: "Fuente de la Huerta, Tecamachalco", atencion: "Arq. Rafael Salame / Arq. Elías Fasja / Arq. Salomón Gorsthein", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria", "PCI"] },
-      { nombre: "Colegio Alemán Alexander Von Humboldt A.C. — Plantel La Herradura", ubicacion: "Bosque de Montezuma No. 134, Estado de México", atencion: "Arq. Aurelio Nuño / Arq. Nuño de Buen Mac Gregor", instalaciones: ["Eléctrica M.T.", "Eléctrica B.T.", "Hidrosanitaria", "PCI"] },
-      { nombre: "Automotriz Hermes Mercedes Benz", ubicacion: "Periférico Sur, México D.F.", atencion: "Arq. Ricardo Sanz", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria", "PCI"] },
-      { nombre: "Nissan", ubicacion: "Lomas Verdes, Estado de México", atencion: "Lic. Andrés Ocejo / Arq. Ricardo Sanz", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria", "PCI"] },
-      { nombre: "Suzuki Polanco", ubicacion: "Av. Miguel de Cervantes Saavedra No. 388", atencion: "Arq. Ricardo Sanz", instalaciones: ["Eléctrica M.T.", "Hidrosanitaria", "PCI"] },
+      { nombre: "Centro Cultural y Recreativo Israelita de México — Secundaria y Preparatoria", ubicacion: "Lomas del Recuerdo No. 44", atencion: "Sr. Aaron Jaet / Arq. Salomón Gorshtein / Lic. Daniel Liwerant / Sr. Marcos Fastlicht", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria"] },
+      { nombre: "Centro Cultural y Recreativo Israelita de México — Edificio Administrativo", ubicacion: "Lomas del Recuerdo No. 44", atencion: "Ing. Yuri Tartakoski / Arq. Julio Tartakoski", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria"] },
+      { nombre: "Templo Eliyahu", ubicacion: "Fuente de Templanza / Fuente de la Huerta, Tecamachalco", atencion: "Arq. Rafael Salame / Arq. Elías Fasja / Arq. Salomón Gorshtein", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria"] },
+      { nombre: "Tevila", ubicacion: "Fuente de la Huerta, Tecamachalco", atencion: "Arq. Rafael Salame / Arq. Elías Fasja / Arq. Salomón Gorshtein", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria"] },
+      { nombre: "Colegio Alemán Alexander Von Humboldt A.C. — Plantel La Herradura", ubicacion: "Bosque de Montezuma No. 134, Estado de México", atencion: "Arq. Aurelio Nuño / Arq. Nuño de Buen Mac Gregor", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria"] },
+      { nombre: "Automotriz Hermer Mercedes Benz", ubicacion: "Periférico Sur, México, D.F.", atencion: "Arq. Ricardo Sanz", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria", "PCI"] },
+      { nombre: "Nissan", ubicacion: "Lomas Verdes, Estado de México", atencion: "Lic. Andrés Ocejo / Arq. Ricardo Sanz", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria"] },
+      { nombre: "Suzuki Polanco", ubicacion: "Av. Miguel de Cervantes Saavedra No. 388", atencion: "Arq. Ricardo Sanz", instalaciones: ["Eléctrica B.T.", "Hidrosanitaria", "PCI"] },
     ],
   },
 ];
@@ -323,7 +323,7 @@ const TITULOS_PROYECTOS = [
   "Residencial Grand Polanco",
   "Colegio Alemán Alexander Von Humboldt A.C.",
   "Residencial Grand Polanco",
-  "Canon Mills, S.A.",
+  "Cannon Mills, S.A.",
   "Automotriz Hermer Mercedes Benz",
 ];
 const DESC_PH = "";
@@ -586,7 +586,7 @@ function SectionLabel({ children, light = false }: { children: React.ReactNode; 
   );
 }
 
-/* ─── Project Card ───────────────────────────────────────── */
+//* ─── Project Card ───────────────────────────────────────── */
 function ProyectoCard({ p }: { p: Proyecto }) {
   return (
     <div
@@ -600,33 +600,93 @@ function ProyectoCard({ p }: { p: Proyecto }) {
       <h4 className="text-sm font-bold leading-snug" style={{ color: NAVY }}>
         {p.nombre}
       </h4>
+
       {p.caracteristicas && (
-        <p className="text-xs text-gray-400 leading-snug" style={{ fontFamily: "'Inter', sans-serif" }}>
-          {p.caracteristicas}
-        </p>
+        <div
+          className="rounded-lg px-3 py-2"
+          style={{ background: "rgba(14,122,196,0.07)" }}
+        >
+          <p
+            className="text-[10px] font-bold uppercase tracking-wide mb-1"
+            style={{ color: "#0A6EB0" }}
+          >
+            Características
+          </p>
+          <p
+            className="text-xs leading-snug"
+            style={{
+              color: "#4A5A6A",
+              fontFamily: "'Inter', sans-serif",
+            }}
+          >
+            {p.caracteristicas}
+          </p>
+        </div>
       )}
+
       <div className="flex items-start gap-1.5 mt-auto">
-        <MapPin size={11} className="flex-shrink-0 mt-0.5" style={{ color: "#9CA3AF" }} />
-        <span className="text-xs text-gray-400 leading-snug" style={{ fontFamily: "'Inter', sans-serif" }}>
+        <MapPin
+          size={11}
+          className="flex-shrink-0 mt-0.5"
+          style={{ color: "#6B7C8F" }}
+        />
+        <span
+          className="text-xs leading-snug"
+          style={{
+            color: "#6B7C8F",
+            fontFamily: "'Inter', sans-serif",
+          }}
+        >
           {p.ubicacion}
         </span>
       </div>
+
       {p.atencion && (
-        <p className="text-xs text-gray-300 leading-snug truncate" style={{ fontFamily: "'Inter', sans-serif" }}>
-          {p.atencion}
-        </p>
+        <div
+          className="rounded-lg px-3 py-2"
+          style={{ background: "rgba(90,122,148,0.07)" }}
+        >
+          <p
+            className="text-[10px] font-bold uppercase tracking-wide mb-1"
+            style={{ color: "#4A6A88" }}
+          >
+            Atención
+          </p>
+          <p
+            className="text-xs leading-snug"
+            style={{
+              color: "#4A5A6A",
+              fontFamily: "'Inter', sans-serif",
+            }}
+          >
+            {p.atencion}
+          </p>
+        </div>
       )}
-      <div className="flex flex-wrap gap-1.5 pt-1">
-        {p.instalaciones.map((tag) => (
-          <span key={tag} className="text-[10px] font-semibold px-2 py-0.5 rounded-md" style={tagStyle(tag)}>
-            {tag}
-          </span>
-        ))}
+
+      <div>
+        <p
+          className="text-[10px] font-bold uppercase tracking-wide mb-2"
+          style={{ color: "#0A6EB0" }}
+        >
+          Instalaciones
+        </p>
+
+        <div className="flex flex-wrap gap-1.5">
+          {p.instalaciones.map((tag) => (
+            <span
+              key={tag}
+              className="text-[10px] font-semibold px-2 py-0.5 rounded-md"
+              style={tagStyle(tag)}
+            >
+              {tag}
+            </span>
+          ))}
+        </div>
       </div>
     </div>
   );
 }
-
 /* ─── App ────────────────────────────────────────────────── */
 export default function App() {
   const [menuOpen,      setMenuOpen]      = useState(false);
